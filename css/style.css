@@ -17,14 +17,14 @@ body {
 }
 
 fieldset {
-  background-color: white;
+  background-color: #f6f6f6;
   color: #757575;
   height: 300px;
   width: 85%;
   display: flex;
   margin: 20px auto;
   border-radius: 25px;
-  border-color: #f6f6f6;
+  border-color: #757575;
 }
 fieldset .inputs {
   margin: 10px;
