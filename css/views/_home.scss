@@ -1,38 +1,38 @@
 .question {
-    @include buildFont(Roboto, 40px, white);
-    display: flex;
-    width: 100%;
-    margin: 0 auto;
-    height: 100px;
-    justify-content: center;
-    font-weight: normal;
+  @include buildFont(Roboto, 40px, white);
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  height: 100px;
+  justify-content: center;
+  font-weight: normal;
 }
 
 .button-row {
-    display: flex;
-    width: 100%;
-    margin: 0 auto;
-    height: 100px;
-    justify-content: space-between;
-    border-bottom: solid 1px $gray;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  height: 100px;
+  justify-content: space-between;
+  border-bottom: solid 1px $gray;
 
-    .svg {
-        height: 50px;
-        width: 100%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        filter: brightness(0) invert(1) opacity(70%);
-        text-align: center;
-    }
-    .svg-active {
-        filter: opacity(100%);
-    }
-    .image-link {
+  .svg {
+    height: 50px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: brightness(0) invert(1) opacity(70%);
+    text-align: center;
+  }
+  .svg-active {
+    filter: opacity(100%);
+  }
+  .image-link {
     color: white;
     text-decoration: none;
-    }
-    .image-link-border {
-        border-bottom: solid 5px $bigButton;
-    }
+  }
+  .image-link-border {
+    border-bottom: solid 5px $bigButton;
+  }
 }

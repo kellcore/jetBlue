@@ -36,21 +36,21 @@ fieldset {
 }
 
 .search button {
-    display: flex;
-    margin: 0 auto;
-    border-radius: 0 25px;
-    background-color: $bigButton;
-    border-color: $bigButton;
-    width: 85%;
-    height: 75px;
-    font-weight: bold;
-    justify-content: center;
-    @include buildFont($primaryFont, 18px, white);
-   
-    .search-text {
-        text-decoration: none;
-        color: white;
-    }
+  display: flex;
+  margin: 0 auto;
+  border-radius: 0 25px;
+  background-color: $bigButton;
+  border-color: $bigButton;
+  width: 85%;
+  height: 75px;
+  font-weight: bold;
+  justify-content: center;
+  @include buildFont($primaryFont, 18px, white);
+
+  .search-text {
+    text-decoration: none;
+    color: white;
+  }
 }
 
 @media all and (min-width: 700px) {
