@@ -24,7 +24,7 @@ fieldset {
   display: flex;
   margin: 20px auto;
   border-radius: 25px;
-  border-color: #757575;
+  border-color: #f6f6f6;
 }
 fieldset .inputs {
   margin: 10px;
@@ -35,6 +35,25 @@ fieldset .points {
 }
 fieldset ::placeholder {
   color: #00205c;
+}
+
+.search button {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 0 25px;
+  background-color: #ff8201;
+  border-color: #ff8201;
+  width: 85%;
+  height: 75px;
+  font-weight: bold;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: 18px;
+  color: white;
+}
+.search button .search-text {
+  text-decoration: none;
+  color: white;
 }
 
 @media all and (min-width: 700px) {
@@ -88,9 +107,15 @@ header {
 }
 
 footer {
-  background-color: blue;
-  padding: 10px;
-  color: yellow;
+  background-color: #00205c;
+  padding: 50px;
+  margin: 50px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+footer .fees {
+  color: white;
 }
 
 .question {
@@ -111,7 +136,7 @@ footer {
   margin: 0 auto;
   height: 100px;
   justify-content: space-between;
-  border-bottom: solid 2px #757575;
+  border-bottom: solid 1px #757575;
 }
 .button-row .svg {
   height: 50px;

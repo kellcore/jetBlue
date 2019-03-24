@@ -3,9 +3,3 @@
     font-size: $size;
     color: $color;
 }
-
-@mixin linkFont ($size, $color, $text-decoration) {
-    font-size: $size;
-    color: $color;
-    text-decoration: $text-decoration;
-}
