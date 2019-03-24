@@ -1,0 +1,55 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $jetBlue;
+  @include buildFont($primaryFont, 15px, white);
+}
+
+fieldset {
+  background-color: white;
+  color: #757575;
+  height: 300px;
+  width: 85%;
+  display: flex;
+  margin: 20px auto;
+  border-radius: 25px;
+  border-color: #757575;
+  .inputs {
+    margin: 10px;
+    padding: 10px;
+  }
+  .points {
+    text-align: center;
+  }
+  ::placeholder {
+    color: $jetBlue;
+  }
+}
+
+@media all and (min-width: 700px) {
+  body {
+    background-color: $jetBlue;
+  }
+  .container {
+    width: 96%;
+    margin: 0 auto;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  body {
+    background-color: $jetBlue;
+  }
+  .container {
+    width: 1000px;
+  }
+}

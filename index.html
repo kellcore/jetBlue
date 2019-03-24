@@ -1,25 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie-edge">
-        <title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <meta name="jetBlue form" content="form with flight info for jetBlue">
+    <title> Flights | jetBlue | Syracuse, NY </title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
 
-        </title>
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-        <body>
-            <header>
-                Header stuff goes here
-            </header>
-                <main>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-box bars"> <i class="fas fa-bars fa-lg"></i> </div>
+            <div class="header-box logo">
+                <img src="images/jetblue-logo.svg" width="100" alt="jetBlue logo" class="logo">
+            </div>
+            <div class="header-box text-link">
+                <a class="text-link" href="https://www.jetblue.com/signin?returnUrl=https:%2F%2Fwww.jetblue.com%2F"
+                    target="_blank"> Sign in </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="question">
+                <p> Feeling fly today? </p>
+            </div>
+        </section>
+        <section>
+            <div class="button-row">
+                <div class="svg svg-active">
+                    <a class="image-link image-link-border" href="https://www.jetblue.com/flights" target="_blank"> <img
+                            src="images/icon-flight.svg" width="50" alt="plane" class="svg"> Flights </a>
+                </div>
+                <div class="svg">
+                    <a class="image-link" href="https://www.jetblue.com" target="_blank"> <img
+                            src="images/icon-flight-hotels.svg" width="50" alt="plane and hotel" class="svg"> Flights
+                        + Hotels </a>
+                </div>
+                <div class="svg">
+                    <a class="image-link" href="https://www.jetblue.com" target="_blank"> <img
+                            src="images/icon-hotels.svg" width="50" alt="hotel" class="svg"> Hotels </a>
+                </div>
+                <div class="svg">
+                    <a class="image-link" href="https://www.jetblue.com" target="_blank"> <img src="images/icon-car.svg"
+                            width="50" alt="car" class="svg"> Cars </a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="form">
+                <form target="_blank">
+                    <fieldset class="fieldset">
+                        <div class="inputs">
+                            <input type="radio" name="ticket" value="roundtrip" checked> Roundtrip
+                            <input type="radio" name="ticket" value="one-way"> One-way
+                        </div>
+                        <div class="inputs">
+                            <input type="text" name="location" placeholder="Syracuse, NY (SYR)">
+                        </div>
+                        <div class="inputs">
+                            <input type="text" name="destination" placeholder="Where to?">
+                        </div>
+                        <div class="inputs">
+                            <input type="text" name="date1" placeholder="Select Date">
+                            <input type="text" name="date2" placeholder="Select Date">
+                        </div>
+                        <div class="inputs">
+                            <input type="text" name="passenger" placeholder="1 adult">
+                        </div>
+                        <div class="inputs points">
+                            <input type="checkbox" name="trueblue" value="points"> Use TrueBlue points
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        <section>
+            <div class="search">
+                <button> Search flights </button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a class="fees" href="https://www.jetblue.com/at-the-airport/baggage-information" target="_blank"> New baggage
+            fees </a>
+    </footer>
+</body>
 
-                </main>
-                    <footer>
-                        Footer stuff goes here
-                    </footer>
-        </body>
 </html>
